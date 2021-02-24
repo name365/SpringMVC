@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="/add" method="post">
+    <form action="/add/" method="post">
         <input type="text" name="p">
         <input type="text" name="q">
         <input type="submit">

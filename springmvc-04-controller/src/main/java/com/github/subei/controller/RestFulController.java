@@ -21,16 +21,16 @@ public class RestFulController {
 
     }
 
-    @PostMapping("/add/{p}/{q}")
-    public String index3(@PathVariable int p, @PathVariable int q, Model model){
-
-        int result = p+q;
-        // Spring MVC会自动实例化一个Model对象用于向视图中传值
-        model.addAttribute("msg", "结果1为："+result);
-        // 返回视图位置
-        return "test";
-
-    }
+//    @PostMapping("/add/{p}/{q}")
+//    public String index3(@PathVariable int p, @PathVariable int q, Model model){
+//
+//        int result = p+q;
+//        // Spring MVC会自动实例化一个Model对象用于向视图中传值
+//        model.addAttribute("msg", "结果1为："+result);
+//        // 返回视图位置
+//        return "test";
+//
+//    }
 
     @PostMapping("/add/{p}/{q}")
     public String index4(@PathVariable int p, @PathVariable int q, Model model){
